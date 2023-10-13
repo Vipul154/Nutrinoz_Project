@@ -1,6 +1,5 @@
 <?php
 
-echo "Welcome my database";
 //Ways to connect to mySQL 
 //MySQLi Extension
 //PDO
@@ -17,5 +16,4 @@ $dbname = 'nutrinoz';
 //creating a connection object
 $con = mysqli_connect($dbhost, $dbuser, $dbpass);
 $selectDb = mysqli_select_db($con, $dbname) or die('Could not connect to database:');
-echo "Connectoin wAS SUCCESSful";
 ?>
